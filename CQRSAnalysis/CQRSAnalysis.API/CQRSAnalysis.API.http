@@ -1,0 +1,6 @@
+@hostAddress = http://localhost:5003
+
+GET {{hostAddress}}/api/mediatR/
+Accept: application/json
+
+###
