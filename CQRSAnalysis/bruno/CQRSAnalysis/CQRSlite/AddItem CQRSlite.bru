@@ -1,0 +1,23 @@
+meta {
+  name: AddItem CQRSlite
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:5003/api/cqrslite
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Test",
+    "quantity": 1
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

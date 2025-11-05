@@ -1,3 +1,4 @@
+using CQRSAnalysis.CQRSlite;
 using CQRSAnalysis.MassTransit;
 using CQRSAnalysis.MediatR;
 using CQRSAnalysis.Services;
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.AddWolverineServices();
 
+builder.Services.AddCQRSliteServices();
 builder.Services.AddMediatRServices(builder.Configuration.GetValue<string>("LicenseKey"));
 builder.Services.AddMassTransitServices();
 builder.Services.AddBusinessLogic();
@@ -27,5 +29,7 @@ if (app.Environment.IsDevelopment())
 app.MapControllers();
 
 app.UseHttpsRedirection();
+
+app.RegisterHandlers();
 
 app.Run();

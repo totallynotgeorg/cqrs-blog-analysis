@@ -1,4 +1,3 @@
-using CQRSAnalysis.Domain;
 using CQRSAnalysis.MediatR.Commands.AddItem;
 using CQRSAnalysis.MediatR.Queries.GetItemList;
 using MediatR;
