@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.AddWolverineServices();
 
-builder.Services.AddMediatRServices();
+builder.Services.AddMediatRServices(builder.Configuration.GetValue<string>("LicenseKey"));
 builder.Services.AddMassTransitServices();
 builder.Services.AddBusinessLogic();
 
