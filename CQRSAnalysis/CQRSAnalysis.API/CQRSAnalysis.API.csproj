@@ -14,6 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\CQRSAnalysis.BrighterDarker\CQRSAnalysis.BrighterDarker.csproj" />
       <ProjectReference Include="..\CQRSAnalysis.CQRSlite\CQRSAnalysis.CQRSlite.csproj" />
       <ProjectReference Include="..\CQRSAnalysis.Domain\CQRSAnalysis.Domain.csproj" />
       <ProjectReference Include="..\CQRSAnalysis.MassTransit\CQRSAnalysis.MassTransit.csproj" />

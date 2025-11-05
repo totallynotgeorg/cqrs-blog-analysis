@@ -1,3 +1,4 @@
+using CQRSAnalysis.BrighterDarker;
 using CQRSAnalysis.CQRSlite;
 using CQRSAnalysis.MassTransit;
 using CQRSAnalysis.MediatR;
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.AddWolverineServices();
 
+builder.Services.AddBrighterDarkerServices();
 builder.Services.AddCQRSliteServices();
 builder.Services.AddMediatRServices(builder.Configuration.GetValue<string>("LicenseKey"));
 builder.Services.AddMassTransitServices();
