@@ -9,7 +9,9 @@ public static class WolverineRegistration
     {
         host.UseWolverine(options =>
         {
+            options.ApplicationAssembly = typeof(WolverineRegistration).Assembly;
             options.Durability.Mode = DurabilityMode.MediatorOnly;
+            options.Discovery.IncludeAssembly(typeof(WolverineRegistration).Assembly);
         });
         return host;
     }
