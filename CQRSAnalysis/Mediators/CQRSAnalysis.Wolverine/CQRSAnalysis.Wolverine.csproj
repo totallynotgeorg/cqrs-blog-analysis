@@ -7,13 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="WolverineFx" Version="5.0.0" />
+      <ProjectReference Include="..\..\Core\CQRSAnalysis.Domain\CQRSAnalysis.Domain.csproj" />
+      <ProjectReference Include="..\..\Core\CQRSAnalysis.Services\CQRSAnalysis.Services.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Core\CQRSAnalysis.Domain\CQRSAnalysis.Domain.csproj" />
-      <ProjectReference Include="..\..\Core\CQRSAnalysis.Services\CQRSAnalysis.Services.csproj" />
-      <ProjectReference Include="..\CQRSAnalysis.Services\CQRSAnalysis.Services.csproj" />
+      <PackageReference Include="WolverineFx.Http" Version="5.1.0" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,23 @@
+meta {
+  name: AddItem Wolverine
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5003/api/wolverinehttp
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "{{uuid}}",
+    "quantity": 1
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

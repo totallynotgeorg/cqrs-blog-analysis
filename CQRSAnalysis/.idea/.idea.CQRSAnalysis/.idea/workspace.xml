@@ -10,63 +10,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af6140c0-be22-489c-8de1-19fcd01e3285" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/CQRSAnalysis.API.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/CQRSAnalysis.API.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/Controllers/BrighterDarkerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/Controllers/CQRSliteController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/Controllers/MassTransitItemController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/Controllers/MediatRItemController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/Controllers/WolverineItemController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.API/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.BrighterDarker/BrighterRegistration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.BrighterDarker/CQRSAnalysis.BrighterDarker.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.BrighterDarker/Commands/AddItem/AddItemCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.BrighterDarker/Commands/AddItem/AddItemCommandHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.BrighterDarker/Queries/GetItemList/GetItemListQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.BrighterDarker/Queries/GetItemList/GetItemListQueryHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.CQRSlite/CQRSAnalysis.CQRSlite.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.CQRSlite/CQRSliteRegistration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.CQRSlite/Commands/AddItem/AddItemCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.CQRSlite/Commands/AddItem/AddItemCommandHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.CQRSlite/InMemoryEventStore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.CQRSlite/Queries/GetItemList/GetItemListQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.CQRSlite/Queries/GetItemList/GetItemListQueryHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Domain/CQRSAnalysis.Domain.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Domain/Item.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MassTransit/CQRSAnalysis.MassTransit.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MassTransit/Commands/AddItem/AddItemCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MassTransit/Commands/AddItem/AddItemCommandHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MassTransit/Commands/AddItem/AddItemCommandResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MassTransit/MassTransitRegistration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MassTransit/Queries/GetItemList/GetItemListQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MassTransit/Queries/GetItemList/GetItemListQueryHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MassTransit/Queries/GetItemList/GetItemListQueryResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MediatR/CQRSAnalysis.MediatR.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MediatR/Commands/AddItem/AddItemCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MediatR/Commands/AddItem/AddItemCommandHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MediatR/MediatRRegistration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MediatR/Queries/GetItemList/GetItemListQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.MediatR/Queries/GetItemList/GetItemListQueryHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Services/CQRSAnalysis.Services.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Services/Contracts/IInventoryManagementService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Services/ServiceLayerRegistration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Services/Services/InventoryManagementService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Wolverine/CQRSAnalysis.Wolverine.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Wolverine/Commands/AddItem/AddItemCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Wolverine/Commands/AddItem/AddItemCommandHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Wolverine/Queries/GetItemList/GetItemListQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Wolverine/Queries/GetItemList/GetItemListQueryHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CQRSAnalysis.Wolverine/WolverineRegistration.cs" beforeDir="false" />
+    <list default="true" id="af6140c0-be22-489c-8de1-19fcd01e3285" name="Changes" comment="restructure project to resemble solution structure in file explorer">
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/CQRSAnalyse.WolverineHttp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Commands/AddItem/AddItemCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Commands/AddItem/AddItemCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Commands/AddItem/AddItemCommandResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Endpoints/WolverineHttpEndpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Queries/GetItemList/GetItemListQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Queries/GetItemList/GetItemListQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Queries/GetItemList/GetItemListQueryResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/WolverineHttpRegistration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/CQRSAnalysis.API/CQRSAnalysis.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/CQRSAnalysis.API/CQRSAnalysis.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/CQRSAnalysis.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/CQRSAnalysis.API/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CQRSAnalysis.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSAnalysis.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediators/CQRSAnalysis.BrighterDarker/CQRSAnalysis.BrighterDarker.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.BrighterDarker/CQRSAnalysis.BrighterDarker.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediators/CQRSAnalysis.CQRSlite/CQRSAnalysis.CQRSlite.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.CQRSlite/CQRSAnalysis.CQRSlite.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediators/CQRSAnalysis.MassTransit/CQRSAnalysis.MassTransit.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.MassTransit/CQRSAnalysis.MassTransit.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediators/CQRSAnalysis.MediatR/CQRSAnalysis.MediatR.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.MediatR/CQRSAnalysis.MediatR.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediators/CQRSAnalysis.Wolverine/CQRSAnalysis.Wolverine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.Wolverine/CQRSAnalysis.Wolverine.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bruno/CQRSAnalysis/Wolverine/folder.bru" beforeDir="false" afterPath="$PROJECT_DIR$/bruno/CQRSAnalysis/Wolverine/folder.bru" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/823b3c1b2a8d1be941ed82b4ad1ffe1dfbd2e5ffadc1c962497356230b2e0af/IntegerType.vb" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a8a514b78a82241f71382df1fc14a664e5b59c8c76edb41c89c718869af0/Request.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Roaming/Microsoft/UserSecrets/4c834973-7da2-4911-842a-67c0ffee1b2e/secrets.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Commands/AddItem/AddItemCommandResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Endpoints/WolverineHttpEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Queries/GetItemList/GetItemListQueryResponse.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectLevelVcsManager">
@@ -74,7 +52,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "master"
+    ".NET Launch Settings Profile.CQRSAnalysis.API: http.executor": "Run",
+    "git-widget-placeholder": "master",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CQRSAnalysis.API: http">
@@ -112,8 +92,21 @@
     </configuration>
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="restructure project to resemble solution structure in file explorer">
+      <option name="closed" value="true" />
+      <created>1762431963740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762431963740</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="restructure project to resemble solution structure in file explorer" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructure project to resemble solution structure in file explorer" />
+  </component>
 </project>
