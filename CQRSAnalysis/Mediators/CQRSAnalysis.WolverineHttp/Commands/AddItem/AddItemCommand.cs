@@ -1,4 +1,4 @@
-﻿namespace CQRSAnalyse.WolverineHttp.Commands.AddItem;
+﻿namespace CQRSAnalysis.WolverineHttp.Commands.AddItem;
 
 public class AddItemCommand
 {

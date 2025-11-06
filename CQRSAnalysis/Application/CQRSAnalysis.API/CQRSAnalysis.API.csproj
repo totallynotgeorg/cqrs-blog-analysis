@@ -16,7 +16,7 @@
     <ItemGroup>
       <ProjectReference Include="..\..\Core\CQRSAnalysis.Domain\CQRSAnalysis.Domain.csproj" />
       <ProjectReference Include="..\..\Core\CQRSAnalysis.Services\CQRSAnalysis.Services.csproj" />
-      <ProjectReference Include="..\..\Mediators\CQRSAnalyse.WolverineHttp\CQRSAnalyse.WolverineHttp.csproj" />
+      <ProjectReference Include="..\..\Mediators\CQRSAnalysis.WolverineHttp\CQRSAnalysis.WolverineHttp.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.BrighterDarker\CQRSAnalysis.BrighterDarker.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.CQRSlite\CQRSAnalysis.CQRSlite.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.MassTransit\CQRSAnalysis.MassTransit.csproj" />

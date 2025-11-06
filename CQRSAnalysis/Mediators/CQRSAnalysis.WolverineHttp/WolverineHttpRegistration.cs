@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Hosting;
 using Wolverine;
 
-namespace CQRSAnalyse.WolverineHttp;
+namespace CQRSAnalysis.WolverineHttp;
 
 public static class WolverineHttpRegistration
 {

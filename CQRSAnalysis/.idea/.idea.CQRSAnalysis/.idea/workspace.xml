@@ -11,15 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af6140c0-be22-489c-8de1-19fcd01e3285" name="Changes" comment="restructure project to resemble solution structure in file explorer">
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/CQRSAnalyse.WolverineHttp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Commands/AddItem/AddItemCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Commands/AddItem/AddItemCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Commands/AddItem/AddItemCommandResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Endpoints/WolverineHttpEndpoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Queries/GetItemList/GetItemListQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Queries/GetItemList/GetItemListQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Queries/GetItemList/GetItemListQueryResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/WolverineHttpRegistration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/CQRSAnalysis.WolverineHttp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Commands/AddItem/AddItemCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Commands/AddItem/AddItemCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Commands/AddItem/AddItemCommandResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Endpoints/WolverineHttpEndpoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Queries/GetItemList/GetItemListQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Queries/GetItemList/GetItemListQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Queries/GetItemList/GetItemListQueryResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/WolverineHttpRegistration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/CQRSAnalysis.API/CQRSAnalysis.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/CQRSAnalysis.API/CQRSAnalysis.API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/CQRSAnalysis.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/CQRSAnalysis.API/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CQRSAnalysis.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CQRSAnalysis.sln" afterDir="false" />
@@ -42,21 +42,21 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/823b3c1b2a8d1be941ed82b4ad1ffe1dfbd2e5ffadc1c962497356230b2e0af/IntegerType.vb" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a8a514b78a82241f71382df1fc14a664e5b59c8c76edb41c89c718869af0/Request.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Roaming/Microsoft/UserSecrets/4c834973-7da2-4911-842a-67c0ffee1b2e/secrets.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Commands/AddItem/AddItemCommandResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Endpoints/WolverineHttpEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalyse.WolverineHttp/Queries/GetItemList/GetItemListQueryResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Commands/AddItem/AddItemCommandResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Endpoints/WolverineHttpEndpoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Mediators/CQRSAnalysis.WolverineHttp/Queries/GetItemList/GetItemListQueryResponse.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.CQRSAnalysis.API: http.executor": "Run",
-    "git-widget-placeholder": "master",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.CQRSAnalysis.API: http.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CQRSAnalysis.API: http">
     <configuration name="CQRSAnalysis.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Application/CQRSAnalysis.API/CQRSAnalysis.API.csproj" />

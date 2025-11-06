@@ -1,7 +1,7 @@
 ﻿using CQRSAnalysis.Domain;
 using CQRSAnalysis.Services.Contracts;
 
-namespace CQRSAnalyse.WolverineHttp.Queries.GetItemList;
+namespace CQRSAnalysis.WolverineHttp.Queries.GetItemList;
 
 public class GetItemListQueryHandler
 {

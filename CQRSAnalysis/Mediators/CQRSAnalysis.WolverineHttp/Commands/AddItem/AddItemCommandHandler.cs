@@ -1,7 +1,7 @@
 ﻿using CQRSAnalysis.Domain;
 using CQRSAnalysis.Services.Contracts;
 
-namespace CQRSAnalyse.WolverineHttp.Commands.AddItem;
+namespace CQRSAnalysis.WolverineHttp.Commands.AddItem;
 
 public class AddItemCommandHandler
 {

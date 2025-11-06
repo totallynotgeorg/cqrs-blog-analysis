@@ -1,6 +1,6 @@
 ﻿using CQRSAnalysis.Domain;
 
-namespace CQRSAnalyse.WolverineHttp.Queries.GetItemList;
+namespace CQRSAnalysis.WolverineHttp.Queries.GetItemList;
 
 public class GetItemListQueryResponse
 {

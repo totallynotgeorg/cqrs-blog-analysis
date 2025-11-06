@@ -1,9 +1,9 @@
-﻿using CQRSAnalyse.WolverineHttp.Commands.AddItem;
-using CQRSAnalyse.WolverineHttp.Queries.GetItemList;
+﻿using CQRSAnalysis.WolverineHttp.Commands.AddItem;
+using CQRSAnalysis.WolverineHttp.Queries.GetItemList;
 using Wolverine;
 using Wolverine.Http;
 
-namespace CQRSAnalyse.WolverineHttp.Endpoints;
+namespace CQRSAnalysis.WolverineHttp.Endpoints;
 
 public class WolverineHttpEndpoint(IMessageBus messageBus)
 {

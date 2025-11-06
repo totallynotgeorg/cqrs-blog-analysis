@@ -22,7 +22,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSAnalysis.MediatR", "Med
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSAnalysis.Wolverine", "Mediators\CQRSAnalysis.Wolverine\CQRSAnalysis.Wolverine.csproj", "{A708F072-2BB3-44D6-97B4-5E72FD094F09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSAnalyse.WolverineHttp", "Mediators\CQRSAnalyse.WolverineHttp\CQRSAnalyse.WolverineHttp.csproj", "{EF9259C7-17DF-4E49-A7B0-EC79633F3979}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSAnalysis.WolverineHttp", "Mediators\CQRSAnalysis.WolverineHttp\CQRSAnalysis.WolverineHttp.csproj", "{EF9259C7-17DF-4E49-A7B0-EC79633F3979}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

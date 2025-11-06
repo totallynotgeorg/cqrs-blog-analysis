@@ -1,4 +1,4 @@
-using CQRSAnalyse.WolverineHttp;
+using CQRSAnalysis.WolverineHttp;
 using CQRSAnalysis.BrighterDarker;
 using CQRSAnalysis.CQRSlite;
 using CQRSAnalysis.MassTransit;

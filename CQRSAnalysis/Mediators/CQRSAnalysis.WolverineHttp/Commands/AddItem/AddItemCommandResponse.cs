@@ -1,6 +1,6 @@
 ﻿using Wolverine.Http;
 
-namespace CQRSAnalyse.WolverineHttp.Commands.AddItem;
+namespace CQRSAnalysis.WolverineHttp.Commands.AddItem;
 
 public record AddItemCommandResponse : CreationResponse<int>
 {
