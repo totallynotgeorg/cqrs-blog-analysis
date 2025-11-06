@@ -14,6 +14,8 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Core\CQRSAnalysis.Domain\CQRSAnalysis.Domain.csproj" />
+      <ProjectReference Include="..\..\Core\CQRSAnalysis.Services\CQRSAnalysis.Services.csproj" />
       <ProjectReference Include="..\CQRSAnalysis.Domain\CQRSAnalysis.Domain.csproj" />
       <ProjectReference Include="..\CQRSAnalysis.Services\CQRSAnalysis.Services.csproj" />
     </ItemGroup>
