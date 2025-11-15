@@ -1,18 +1,18 @@
-﻿using CQRSAnalysis.Domain;
-using CQRSAnalysis.Services.Contracts;
+﻿using CQRSAnalysis.Services.Contracts.Services;
+using CQRSAnalysis.Services.DataTransferObjects;
 using Paramore.Brighter;
 
 namespace CQRSAnalysis.BrighterDarker.Commands.AddItem;
 
-public class AddItemCommandHandler(IInventoryManagementService service) : RequestHandlerAsync<AddItemCommand>
+public class AddItemCommandHandler(IInventoryService service) : RequestHandlerAsync<AddItemCommand>
 {
-    public override Task<AddItemCommand> HandleAsync(AddItemCommand command, CancellationToken cancellationToken = new CancellationToken())
+    public override async Task<AddItemCommand> HandleAsync(AddItemCommand command, CancellationToken cancellationToken = new CancellationToken())
     {
-        service.AddItem(new Item
+        await service.AddItemAsync(new ItemDto()
         {
             Name = command.Name,
             Quantity = command.Quantity
-        });
-        return base.HandleAsync(command, cancellationToken);
+        }, cancellationToken);
+        return await base.HandleAsync(command, cancellationToken);
     }
 }

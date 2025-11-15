@@ -1,13 +1,15 @@
 ﻿using CQRSAnalysis.Domain;
 using CQRSAnalysis.Services.Contracts;
+using CQRSAnalysis.Services.Contracts.Services;
+using CQRSAnalysis.Services.DataTransferObjects;
 
 namespace CQRSAnalysis.Wolverine.Queries.GetItemList;
 
 public class GetItemListQueryHandler
 {
-    public static Task<IList<Item>> Handle(GetItemListQuery getItemListQuery, IInventoryManagementService service, CancellationToken cancellationToken)
+    public static async Task<IList<ItemDto>> Handle(GetItemListQuery getItemListQuery, IInventoryService service, CancellationToken cancellationToken)
     {
-        var items = service.GetItems();
-        return Task.FromResult(items);
+        var items = await service.GetItemListAsync(cancellationToken);
+        return items;
     }
 }

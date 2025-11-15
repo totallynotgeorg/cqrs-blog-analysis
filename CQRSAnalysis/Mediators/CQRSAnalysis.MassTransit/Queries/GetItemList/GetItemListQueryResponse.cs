@@ -1,8 +1,9 @@
 ﻿using CQRSAnalysis.Domain;
+using CQRSAnalysis.Services.DataTransferObjects;
 
 namespace CQRSAnalysis.MassTransit.Queries.GetItemList;
 
 public class GetItemListQueryResponse
 {
-    public IList<Item> Items { get; set; }
+    public IList<ItemDto> Items { get; set; }
 }

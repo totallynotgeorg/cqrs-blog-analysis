@@ -1,27 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>4c834973-7da2-4911-842a-67c0ffee1b2e</UserSecretsId>
+        <LangVersion>14</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8"/>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
         <PackageReference Include="Microsoft.CodeAnalysis.Scripting.Common" Version="4.14.0" />
-        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0-rc.2.25502.107">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.0-rc.1.25458.5" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\..\Core\CQRSAnalysis.Domain\CQRSAnalysis.Domain.csproj" />
       <ProjectReference Include="..\..\Core\CQRSAnalysis.Services\CQRSAnalysis.Services.csproj" />
-      <ProjectReference Include="..\..\Mediators\CQRSAnalysis.WolverineHttp\CQRSAnalysis.WolverineHttp.csproj" />
+      <ProjectReference Include="..\..\Infrastrucure\CQRSAnalysis.Persistence\CQRSAnalysis.Persistence.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.BrighterDarker\CQRSAnalysis.BrighterDarker.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.CQRSlite\CQRSAnalysis.CQRSlite.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.MassTransit\CQRSAnalysis.MassTransit.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.MediatR\CQRSAnalysis.MediatR.csproj" />
-      <ProjectReference Include="..\..\Mediators\CQRSAnalysis.Wolverine\CQRSAnalysis.Wolverine.csproj" />
     </ItemGroup>
 
 </Project>

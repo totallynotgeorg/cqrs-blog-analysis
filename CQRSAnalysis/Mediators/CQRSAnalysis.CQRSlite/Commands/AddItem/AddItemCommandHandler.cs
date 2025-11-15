@@ -1,19 +1,20 @@
 ﻿using CQRSAnalysis.Domain;
 using CQRSAnalysis.Services.Contracts;
+using CQRSAnalysis.Services.Contracts.Services;
+using CQRSAnalysis.Services.DataTransferObjects;
 using CQRSlite.Commands;
 using CQRSlite.Domain;
 
 namespace CQRSAnalysis.CQRSlite.Commands.AddItem;
 
-public class AddItemCommandHandler(ISession session, IInventoryManagementService service) : ICommandHandler<AddItemCommand>
+public class AddItemCommandHandler(ISession session, IInventoryService service) : ICommandHandler<AddItemCommand>
 {
-    public Task Handle(AddItemCommand message)
+    public async Task Handle(AddItemCommand message)
     {
-        service.AddItem(new Item
+        await service.AddItemAsync(new ItemDto()
         {
             Name =  message.Name,
             Quantity = message.Quantity
-        });
-        return Task.CompletedTask;
+        }, CancellationToken.None);
     }
 }

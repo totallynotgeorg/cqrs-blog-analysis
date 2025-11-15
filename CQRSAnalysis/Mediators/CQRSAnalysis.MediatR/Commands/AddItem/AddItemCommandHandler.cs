@@ -1,18 +1,20 @@
 ﻿using CQRSAnalysis.Domain;
 using CQRSAnalysis.Services.Contracts;
+using CQRSAnalysis.Services.Contracts.Services;
+using CQRSAnalysis.Services.DataTransferObjects;
 using MediatR;
 
 namespace CQRSAnalysis.MediatR.Commands.AddItem;
 
-public class AddItemCommandHandler(IInventoryManagementService service) : IRequestHandler<AddItemCommand, int>
+public class AddItemCommandHandler(IInventoryService service) : IRequestHandler<AddItemCommand, int>
 {
-    public Task<int> Handle(AddItemCommand request, CancellationToken cancellationToken)
+    public async Task<int> Handle(AddItemCommand request, CancellationToken cancellationToken)
     {
-        var quantity = service.AddItem(new Item()
+        var quantity = await service.AddItemAsync(new ItemDto()
         {
             Name = request.Name,
             Quantity = request.Quantity
-        });
-        return Task.FromResult(quantity);
+        }, cancellationToken);
+        return quantity;
     }
 }

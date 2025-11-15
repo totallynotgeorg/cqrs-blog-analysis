@@ -1,17 +1,19 @@
 ﻿using CQRSAnalysis.Domain;
 using CQRSAnalysis.Services.Contracts;
+using CQRSAnalysis.Services.Contracts.Services;
+using CQRSAnalysis.Services.DataTransferObjects;
 
 namespace CQRSAnalysis.WolverineHttp.Commands.AddItem;
 
 public class AddItemCommandHandler
 {
-    public static Task<AddItemCommandResponse> Handle(AddItemCommand request, IInventoryManagementService service, CancellationToken cancellationToken)
+    public static async Task<AddItemCommandResponse> Handle(AddItemCommand request, IInventoryService service, CancellationToken cancellationToken)
     {
-        var quantity = service.AddItem(new Item
+        var quantity = await service.AddItemAsync(new ItemDto
         {
             Name = request.Name,
             Quantity = request.Quantity
-        });
-        return Task.FromResult(new AddItemCommandResponse(quantity));
+        }, cancellationToken);
+        return new AddItemCommandResponse(quantity);
     }
 }

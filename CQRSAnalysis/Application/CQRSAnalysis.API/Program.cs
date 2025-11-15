@@ -1,23 +1,23 @@
-using CQRSAnalysis.WolverineHttp;
 using CQRSAnalysis.BrighterDarker;
 using CQRSAnalysis.CQRSlite;
 using CQRSAnalysis.MassTransit;
 using CQRSAnalysis.MediatR;
+using CQRSAnalysis.Persistence;
 using CQRSAnalysis.Services;
-using CQRSAnalysis.Wolverine;
-using Wolverine.Http;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // builder.Host.AddWolverineServices();
-builder.Host.AddWolverineHttpServices();
+// builder.Host.AddWolverineHttpServices();
 
 builder.Services.AddBrighterDarkerServices();
 builder.Services.AddCQRSliteServices();
 builder.Services.AddMediatRServices(builder.Configuration.GetValue<string>("LicenseKey"));
 builder.Services.AddMassTransitServices();
 builder.Services.AddBusinessLogic();
-builder.Services.AddWolverineHttp();
+// builder.Services.AddWolverineHttp();
+
+builder.Services.AddPersistence(builder.Configuration.GetConnectionString("Demo"));
 
 builder.Services.AddControllers();
 
@@ -34,7 +34,7 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 
-app.MapWolverineEndpoints();
+// app.MapWolverineEndpoints();
 
 app.UseHttpsRedirection();
 
