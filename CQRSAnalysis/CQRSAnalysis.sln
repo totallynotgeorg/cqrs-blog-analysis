@@ -28,6 +28,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSAnalysis.Persistence", "Infrastrucure\CQRSAnalysis.Persistence\CQRSAnalysis.Persistence.csproj", "{56EFB226-8E40-4395-A4F3-51CD03D51F2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSAnalysis.AppHost", "CQRSAnalysis.AppHost\CQRSAnalysis.AppHost.csproj", "{C8A77AF3-4D8A-4CED-BB0B-13CE393CC408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSAnalysis.ServiceDefaults", "CQRSAnalysis.ServiceDefaults\CQRSAnalysis.ServiceDefaults.csproj", "{344C9406-A57B-4915-A1FE-82DAF17D9A3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +78,14 @@ Global
 		{56EFB226-8E40-4395-A4F3-51CD03D51F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56EFB226-8E40-4395-A4F3-51CD03D51F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56EFB226-8E40-4395-A4F3-51CD03D51F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A77AF3-4D8A-4CED-BB0B-13CE393CC408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A77AF3-4D8A-4CED-BB0B-13CE393CC408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A77AF3-4D8A-4CED-BB0B-13CE393CC408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A77AF3-4D8A-4CED-BB0B-13CE393CC408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344C9406-A57B-4915-A1FE-82DAF17D9A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344C9406-A57B-4915-A1FE-82DAF17D9A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344C9406-A57B-4915-A1FE-82DAF17D9A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344C9406-A57B-4915-A1FE-82DAF17D9A3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{41D83A45-1DE5-4DA4-B122-5DF49FE428CD} = {00A52103-EB9D-4BC1-AB8D-9B80AE3D4F6B}

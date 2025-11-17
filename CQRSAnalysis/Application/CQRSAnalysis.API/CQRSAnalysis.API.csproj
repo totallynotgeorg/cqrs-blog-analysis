@@ -16,16 +16,24 @@
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="10.0.0-rc.1.25458.5" />
+        <PackageReference Include="WolverineFx.Http" Version="5.2.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\..\Core\CQRSAnalysis.Domain\CQRSAnalysis.Domain.csproj" />
       <ProjectReference Include="..\..\Core\CQRSAnalysis.Services\CQRSAnalysis.Services.csproj" />
+      <ProjectReference Include="..\..\CQRSAnalysis.ServiceDefaults\CQRSAnalysis.ServiceDefaults.csproj" />
       <ProjectReference Include="..\..\Infrastrucure\CQRSAnalysis.Persistence\CQRSAnalysis.Persistence.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.BrighterDarker\CQRSAnalysis.BrighterDarker.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.CQRSlite\CQRSAnalysis.CQRSlite.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.MassTransit\CQRSAnalysis.MassTransit.csproj" />
       <ProjectReference Include="..\..\Mediators\CQRSAnalysis.MediatR\CQRSAnalysis.MediatR.csproj" />
+      <ProjectReference Include="..\..\Mediators\CQRSAnalysis.WolverineHttp\CQRSAnalysis.WolverineHttp.csproj" />
+      <ProjectReference Include="..\..\Mediators\CQRSAnalysis.Wolverine\CQRSAnalysis.Wolverine.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Extensions\" />
     </ItemGroup>
 
 </Project>
