@@ -23,7 +23,7 @@ builder.Services.AddMassTransitServices();
 builder.Services.AddBusinessLogic();
 builder.Services.AddWolverineHttp();
 
-builder.Services.AddPersistence(builder.Configuration.GetConnectionString("Demo"));
+builder.Services.AddPersistence(builder.Configuration.GetConnectionString("CQRSAnalysis"));
 
 builder.Services.AddControllers();
 
